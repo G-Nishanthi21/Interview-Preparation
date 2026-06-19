@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview Preparation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Interview Preparation </h1>
+
+        <select id="category">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="django">DJANGO</option>
+        </select>
+
+        <div class="card">
+            <h2 id="question">Click Next Question</h2>
+            <p id="answer"></p>
+        </div>
+
+        <button onclick="showAnswer()">Show Answer</button>
+        <button onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <script src="demo.js"></script>
+
+</body>
+</html>
